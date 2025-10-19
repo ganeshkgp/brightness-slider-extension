@@ -1,0 +1,68 @@
+/* Brightness slider container */
+.brightness-slider-container {
+    background-color: rgba(30, 30, 30, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 6px 10px;
+    margin: 2px;
+    spacing: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    min-width: 200px;
+    transition: opacity 0.2s ease;
+}
+
+/* Brightness icon in slider */
+.brightness-slider-icon {
+    icon-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Slider styling */
+.brightness-slider-container .slider {
+    min-width: 120px;
+    min-height: 4px;
+}
+
+.brightness-slider-container .slider-handle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Slider track */
+.brightness-slider-container .slider-track {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+}
+
+/* Active slider track (filled portion) */
+.brightness-slider-container .slider-track-active {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+}
+
+/* Hover effects */
+.brightness-slider-container:hover {
+    background-color: rgba(40, 40, 40, 0.98);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.brightness-slider-container:hover .slider-track {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.brightness-slider-container:hover .slider-track-active {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Panel icon hover effect */
+.panel-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Ensure proper layering */
+.brightness-slider-container {
+    z-index: 1000;
+}

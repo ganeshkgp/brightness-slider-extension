@@ -1,0 +1,9 @@
+{
+    "name": "Brightness Slider",
+    "description": "A brightness slider that floats on top of the status bar using xrandr",
+    "uuid": "brightness-slider@darkside",
+    "version": 1,
+    "shell-version": ["40", "41", "42", "43", "44", "45", "46"],
+    "url": "https://github.com/ganeshkgp/brightness-slider-extension",
+    "gettext-domain": "brightness-slider"
+}
