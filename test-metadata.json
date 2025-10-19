@@ -1,0 +1,7 @@
+{
+    "uuid": "test-extension@ganeshkgp",
+    "name": "Test Extension",
+    "description": "Simple test extension",
+    "version": 1,
+    "shell-version": ["46"]
+}

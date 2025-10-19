@@ -47,12 +47,12 @@ The script will:
 
 2. Copy extension to GNOME Shell extensions directory:
    ```bash
-   cp -r brightness-slider-extension ~/.local/share/gnome-shell/extensions/brightness-slider@darkside
+   cp -r brightness-slider-extension ~/.local/share/gnome-shell/extensions/brightness-slider@ganeshkgp
    ```
 
 3. Enable the extension:
    ```bash
-   gnome-extensions enable brightness-slider@darkside
+   gnome-extensions enable brightness-slider@ganeshkgp
    ```
 
 4. Restart GNOME Shell:
@@ -202,7 +202,7 @@ To upload to https://extensions.gnome.org/:
 
 1. Package the extension:
    ```bash
-   zip -r brightness-slider@darkside.zip metadata.json extension.js stylesheet.css README.md
+   zip -r brightness-slider@ganeshkgp.zip metadata.json extension.js stylesheet.css README.md
    ```
 
 2. Create an account on extensions.gnome.org

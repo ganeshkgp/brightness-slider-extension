@@ -16,7 +16,7 @@ echo "=================================="
 
 # Get the directory where this script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-EXTENSION_NAME="brightness-slider@darkside"
+EXTENSION_NAME="brightness-slider@ganeshkgp"
 
 # Function to detect GNOME Shell version
 detect_gnome_version() {
@@ -142,7 +142,7 @@ main() {
     echo "2. Make sure you have the required dependencies"
     echo "3. Restart GNOME Shell manually: Alt+F2, type 'r', press Enter"
     echo ""
-    echo "For support: https://github.com/darkside/brightness-slider-extension"
+    echo "For support: https://github.com/ganeshkgp/brightness-slider-extension"
 
     restart_gnome_shell
 }

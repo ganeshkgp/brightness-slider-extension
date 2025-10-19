@@ -1,5 +1,5 @@
 {
-    "uuid": "brightness-slider@darkside",
+    "uuid": "brightness-slider@ganeshkgp",
     "name": "Brightness Slider",
     "description": "A brightness slider that floats on top of the status bar using xrandr",
     "version": 1,
